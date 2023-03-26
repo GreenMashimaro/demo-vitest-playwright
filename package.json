@@ -1,0 +1,19 @@
+{
+  "name": "demo-vitest-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vite build && vitest",
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@playwright/test": "^1.32.1",
+    "playwright": "^1.32.1",
+    "vite": "^4.2.1",
+    "vitest": "^0.29.7"
+  }
+}
